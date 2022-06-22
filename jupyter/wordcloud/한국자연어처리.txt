@@ -1,0 +1,28 @@
+
+1. reduce 완벽이해 (완료)
+2. 맥도날드 지도에서 다 찍기 (완료)
+3. 스타벅스 크롤링 (중간진행중)
+4. 대통령취임사 크롤링 (안함)
+4. NLP 설치 -> 자주 바뀐다., 잘 듣자
+ (1) Twitter Class       →    Okt 로 이름이 바뀜
+ (2) %pip install konlpy
+ (3) from konlpy.tag import Kkma
+ (4) JVM에러
+ (5) JVMNotFoundException: No JVM shared library file (jvm.dll) found. Try setting up the JAVA_HOME environment variable properly.
+ (6) 디더그쪽 다운로드 본다.
+ (7) JDK (>=1.8) Install 이후는 돈나간다.
+ (8) 자바 -> Windows -> x64인스톨러 153.38 다운로드 
+ (9) 설치위치 program 띄기 오류 -> program 없애고 설치 -> c다음, 바로 자바로
+ (10) window +r -> cmd 커맨드창
+ (11) 자바홈 지정해주기, 디더그 쪽의 시스템환경변수 넣는다. , 설치된 곳 한번 본다.
+ (12) 제어판 -> 시스템 -> 고급시스템 설정 -> 환경변수 클릭 ->새로 만들기
+      변수이름 : 자바홈, 변수값 : 설치된 곳(복사후 붙여넣기)
+      패스 : 시스템 변수에 편집 새로만들기 추가하기
+      클래스패스 : 시스템 변수에서 새로 만들기 클래스 패스와 , =값을 변수로 넣는다.
+ (13) cmd의 java와 javac로 확인한다.
+ (14) C:\Users\student>jconsole
+ (15) 밑의 변수 클릭하고 열면, 그래프가 4개짜리가 나온다.
+ (16) 퍼폼 gc 활용한하는거 삭제해서 속도 높인다.
+ (17) 쥬피터 종료 후 재실행 하면 된다
+
+ * 20대 대통령실 : 대통령 신년사 크롤링, 텍스트 파일만 가지고 한다.*
